@@ -37,4 +37,4 @@ require 'meta_tags/text_normalizer'
 require 'meta_tags/view_helper'
 
 ActionView::Base.include MetaTags::ViewHelper
-ActionController::Base.include MetaTags::ControllerHelper
+ActionController::Base.prepend MetaTags::ControllerHelper
