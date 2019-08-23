@@ -19,7 +19,7 @@ module MetaTags
       meta_tags[:keywords]    = @page_keywords    if @page_keywords
       meta_tags[:description] = @page_description if @page_description
 
-      super
+      super(args)
     end
 
     # Set meta tags for the page.
